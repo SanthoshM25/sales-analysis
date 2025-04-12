@@ -28,12 +28,12 @@ A Go-based system for analyzing sales data from CSV files with MySQL backend.
 
 4. Install dependencies:
    ```bash
-   go mod download
+   go mod tidy
    ```
 
 5. Start server:
    ```bash
-   go run .
+   go run *.go
    ```
 
 ## API Endpoints
